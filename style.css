@@ -20,19 +20,8 @@ a {
 }
 
 input,
-button,
-textarea,
-select {
+button {
 	font-family: inherit;
-}
-
-textarea {
-	resize: vertical;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
 }
 
 body {
@@ -56,9 +45,15 @@ body {
 	justify-content: space-around;
 	padding: 0.5rem 0;
 }
-.box p {
+.box p,
+li,
+a {
+	list-style: none;
 	color: gold;
 	font-size: 1.25rem;
+}
+li {
+	margin: 3rem;
 }
 .btn-div {
 	display: flex;
@@ -85,6 +80,11 @@ button {
 	color: white;
 	margin-top: 1rem;
 }
+.back {
+	color: aliceblue;
+	margin-top: 2rem;
+	font-size: 0.85rem;
+}
 
 @media screen and (min-width: 776px) {
 	.box p {
@@ -105,5 +105,8 @@ button {
 @media screen and (min-width: 996px) {
 	button:hover {
 		background-color: rgb(148, 107, 2);
+	}
+	a:hover {
+		color: goldenrod;
 	}
 }
