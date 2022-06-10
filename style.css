@@ -38,6 +38,9 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+ul {
+	text-align: center;
+}
 .box {
 	display: flex;
 	flex-direction: column;
@@ -53,7 +56,7 @@ a {
 	font-size: 1.25rem;
 }
 li {
-	margin: 3rem;
+	padding: 3rem;
 }
 .btn-div {
 	display: flex;
